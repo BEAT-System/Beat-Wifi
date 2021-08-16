@@ -1,0 +1,30 @@
+{
+  "name": "Beat2020WifiCom",
+  "keywords": "wifi, beat2020",
+  "description": "Arduino Library for controlling the beat 2020 device",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.imn.htwk-leipzig.de/geser/beatmungsgeraete"
+  },
+  "authors": [
+    {
+      "name": "Willi Zschiebsch",
+      "email": "willi.w.zschiebsch@web.de",
+      "maintainer": true
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "VentiData",
+      "authors": "Willi Zschiebsch",
+      "frameworks": "arduino"
+    },
+    {
+      "name": "WifiNINA",
+      "frameworks": "arduino"
+    }
+  ],
+  "version": "1.0.0",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
